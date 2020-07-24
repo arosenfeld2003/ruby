@@ -1,3 +1,9 @@
+# We have been provided a dataset of sales from My Online Coffee Shop. It's a CSV (Comma Separated Values) (each columns are separated by , and each line by \n)
+# Our goal will be to identify customer who are more likely to buy coffee online.
+# Write your first correlation with or without code logic, create a function
+# You will receive the content of the CSV as a string argument.
+# It will return an array with this format: [COLUMN_NAME, MOST_COMMON_VALUE]
+
 # require_relative 'helpers.rb'
 def my_csv_parser(a, b)
   return a.split("\n").collect { |row| row.split(b) }

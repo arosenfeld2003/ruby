@@ -1,3 +1,17 @@
+Create a backend app with light web framework (using sinatra)
+# It will have a route GET on /. This action will give randomly (in a pool of at least 20) a name of a song from Frank Sinatra.
+# Add multiple pages or routes:
+
+#     GET on /. This action will give randomly (in a pool of at least 20) a name of a song from Frank Sinatra.
+#     (https://en.wikipedia.org/wiki/List_of_songs_recorded_by_Frank_Sinatra)
+
+#     GET on /birth_date. This action will give Frank Sinatra birth date.
+
+#     GET on /birth_city. This action will give Frank Sinatra birth city.
+
+#     GET on /wives. This action will give all the name of Frank Sinatra wife.
+
+
 require 'sinatra'
 
 set :bind, '0.0.0.0'
